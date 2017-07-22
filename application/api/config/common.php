@@ -42,13 +42,20 @@ $config =  [
 
 	],
     'components' => [
-		'db' => [
-			'class' => 'yii\db\Connection',
-			'dsn' => 'mysql:host=localhost;dbname=rest',
-			'username' => 'root',
-			'password' => 'motae999',
-			'charset' => 'utf8',
-		],
+		// 'db' => [
+		// 	'class' => 'yii\db\Connection',
+		// 	'dsn' => 'mysql:host=localhost;dbname=rest',
+		// 	'username' => 'root',
+		// 	'password' => 'motae999',
+		// 	'charset' => 'utf8',
+		// ],
+    	'db' => [
+	    	'class' => 'yii\db\Connection',
+		    'dsn' => 'pgsql:host=ec2-107-22-162-158.compute-1.amazonaws.com;port=5432;dbname=da4824q2sutddl',
+		    'username' => 'iiuyxddrgcsrdi',
+		    'password' => '4d0d391946c9edfea8a03950e7142e48302642c2d1939409fe37ac4955427ed9',
+		    'charset' => 'utf8',
+    	]
 		'authManager' => [
 			'class' => 'yii\rbac\DbManager',
 		],
