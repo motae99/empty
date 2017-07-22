@@ -28,6 +28,27 @@ class m150513_053633_add_dummy_user extends Migration
 		$user->generateAuthKey();
 		$user->save();
 
+		$user = new User();
+		$user->id = 4;
+		$user->email = 'user4@gmail.com';
+		$user->password = '444444444';
+		$user->generateAuthKey();
+		$user->save();
+
+		$user = new User();
+		$user->id = 5;
+		$user->email = 'user5@gmail.com';
+		$user->password = '555555555';
+		$user->generateAuthKey();
+		$user->save();
+
+		$user = new User();
+		$user->id = 6;
+		$user->email = 'user6@gmail.com';
+		$user->password = '666666666';
+		$user->generateAuthKey();
+		$user->save();
+
 
     }
 
