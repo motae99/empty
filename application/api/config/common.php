@@ -55,7 +55,7 @@ $config =  [
 		    'username' => 'iiuyxddrgcsrdi',
 		    'password' => '4d0d391946c9edfea8a03950e7142e48302642c2d1939409fe37ac4955427ed9',
 		    'charset' => 'utf8',
-    	]
+    	],
 		'authManager' => [
 			'class' => 'yii\rbac\DbManager',
 		],
